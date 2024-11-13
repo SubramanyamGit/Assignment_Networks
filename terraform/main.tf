@@ -29,7 +29,7 @@ provider "azurerm" {
 }
 
 variable "resource_group_name" {
-  default = "tf-linux-rg"
+  default = "tf-linux-1-rg"
 }
 
 variable "location" {
