@@ -110,7 +110,7 @@ jobs:
           echo "public_ip=${PUBLIC_IP}" >> $GITHUB_ENV  
         working-directory: terraform
 
-      Decode the private key and save it to a file
+      #Decode the private key and save it to a file
       - name: Decode and save SSH private key
         run: |
           echo "${{ secrets.AZURE_PRIVATE_KEY }}" >> private_key.pem
